@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+#myApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1em;
+    align-items: center;
+
+}
+
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    background-color: lightskyblue;
+    width:100%;
+    padding: 0.5em 0em;
+
+}
+
+.end-game{
+    position: absolute;
+    min-height: 100dvh;
+    background-color: rgba(132, 111, 252, 0.9);
+    width: 100%;
+    z-index: 1;
+    display:flex;
+    opacity:0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 1s;
+    color:white;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 80%;
+}
+
+p {
+    margin: 0.5em 0em;
+    line-height: 1.3em;
+}
+
+.mc-options {
+    translate: -2px;
+    padding: 0.1em 2px;
+}
+.mc-options:hover {
+    border: 2px dashed black;
+    cursor:pointer;
+    border-radius: 5px;
+}

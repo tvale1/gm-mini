@@ -1,0 +1,853 @@
+[
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating data distributions",
+        "dot-points": {
+            "topic":"representation, display and description of the distributions of categorical variables: data tables, two-way frequency tables and their associated segmented bar charts",
+            "key-knowledge":"frequency tables, bar charts including segmented bar charts, histograms, stem plots, dot plots, and their application in the context of displaying and describing distribution",
+            "key-skill":"construct frequency tables and bar charts and use them to describe and interpret the distributions of categorical variables"
+        },
+        "question-number":1,
+        "marks": 1,
+        "question": {
+            "stem": [
+                {"paragraph-text":"A group of students were asked to name their favourite colour."},
+                {"paragraph-text":"The results are displayed in the percentage segmented bar chart below."},
+                {"image": "2024-E1-Q1.jpg"}
+            ],
+            "question-text": [{"paragraph-text":"The percentage of students who named blue as their favourite colour is closest to"}],
+            "options": [[{"text-inline": "14%"}],[{"text-inline": "18%"}],[{"text-inline": "26%"}],[{"text-inline": "74%"}]],
+            "correct-answer": {
+                "choice": "B",
+                "index": 1,
+                "answer": "18%"
+            }
+        }
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Matrices",
+        "sub-topic": "",
+        "dot-points": {
+            "topic":"",
+            "key-knowledge":"",
+            "key-skill":""
+        },
+        "question-number":28,
+        "marks": 1,
+        "question": {
+            "stem": [
+                {"paragraph-text":"A primary school is hosting a sports day."},
+                {"paragraph-text": "Students represent one of four teams: blue ("},
+                {"italics-inline": "B"},
+                {"text-inline": "), green ("},
+                {"italics-inline": "G"},
+                {"text-inline": "), red ("},
+                {"italics-inline": "R"},
+                {"text-inline": "), or yellow ("},
+                {"italics-inline": "Y"},
+                {"text-inline": ")."},
+                {"paragraph-text":"Students complete in one of three sports: football ("},
+                {"italics-inline": "F"},
+                {"text-inline": "), netball ("},
+                {"italics-inline": "N"},
+                {"text-inline": "), or tennis ("},
+                {"italics-inline": "T"},
+                {"text-inline": ")."},
+                {"paragraph-text":"Matrix "},
+                {"italics-inline": "W"},
+                {"text-inline": " shows the number of students completing in each sport and the team they represent."},
+                {"image": "2024-E1-Q28.png"},
+                {"paragraph-text":"Matrix "},
+                {"italics-inline": "W"},
+                {"text-inline": " is multiplied by the matrix "},
+                {"equation-inline": "\\begin{bmatrix} 1 \\\\ 1 \\\\ 1 \\\\ 1 \\end{bmatrix}"},
+                {"text-inline": "to produce matrix "},
+                {"italics-inline": "X"},
+                {"text-inline": "."},
+                {"paragraph-text":"Element "},
+                {"equation-inline": "x_{31}"},
+                {"text-inline": " indicates that"}
+            ],
+            "image":"",
+            "question-text": "",
+            "options": [[{"text-inline": "210 students represent the blue team"}], [{"text-inline": "210 students compete in netball"}], [{"text-inline": "280 students compete in tennis"}], [{"text-inline": "280 students compete in football"}]],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2, 
+                "answer": "280 students compete in tennis"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating data distributions",
+        "dot-points": {
+            "topic":"types of data",
+            "key-knowledge":"types of data: categorical (nominal and ordinal) and numerical (discrete and continuous)",
+            "key-skill":""
+        },
+        "question-number":2,
+        "marks": 1,
+        "question": {
+            "stem": [
+                {"paragraph-text":"Freddie organised a function at work. He surveyed the staff about their preferences."}, 
+                {"paragraph-text":"He asked them about their "},
+                {"italics-inline": "payment preference "},
+                {"text-inline": "(cash or electronic payment) and their "},
+                {"italics-inline": "budget preference "},
+                {"text-inline": "(less than $50 or more than $50)."}
+            ],
+
+            "question-text": [{"paragraph-text":"The variable in this survey, payment preference and budget preference, are"}],
+            
+            "options": [ 
+                [{"text-inline": "both categorical variables."}],
+                [{"text-inline": "both numerical variables"}],
+                [{"text-inline": "categorical and numerical variables, respectively"}],
+                [{"text-inline": "numerical and categorical variables, respectively"}]
+            ],
+            "correct-answer": {
+                "choice": "A",
+                "index": 0,
+                "answer": "both categorical variables"
+            }
+        }
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating data distributions",
+        "dot-points": {
+            "topic":"summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread",
+            "key-knowledge":"the five-number summary and boxplots (including the designation and display of possible outliers)",
+            "key-skill":"answer statistical questions that require a knowledge of the distribution(s) of one or more numerical variables"
+        },
+        "question-number":3,
+        "marks": 1,
+        "question": {
+            "stem": [
+                {"paragraph-text":"The histogram below displays the population density, in people per km"}, 
+                {"superscript-inline": "2"},
+                {"text-inline": ", of the 27 countries in the European Union in 2021. the histogram has a logarithmic (base 10) scale."},
+                {"image": "2024-E1-Q3.png"}
+            ],
+            
+            "image": "2024-E1-Q3.png",
+            "question-text": [
+                {"paragraph-text":"The median value occurs in a column with a frequency of"}
+            ],
+
+            "options": [ 
+                [{"text-inline": 2}],
+                [{"text-inline": 3}],
+                [{"text-inline": 6}],
+                [{"text-inline": 9}]
+            ],
+            "correct-answer": {
+                "choice": "D",
+                "index": 3,
+                "answer": 9
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating data distributions",
+        "dot-points": {
+            "topic":"summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread",
+            "key-knowledge":"logarithmic (base 10) scales, and their purpose and application",
+            "key-skill":"answer statistical questions that require a knowledge of the distribution(s) of one or more numerical variables"
+        },
+        "question-number":4,
+        "marks": 1,
+        "question": {
+            "stem": "The histogram below displays the population density, in people per km^2, of the 27 countries in the European Union in 2021. the histogram has a logarithmic (base 10) scale.",
+            "image": "2024-E1-Q3.png",
+            "question-text": "There is one outlier at the upper end of the histogram. This value could be",
+            "options": [330,1330,2030,2730],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": 2030
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating data distributions",
+        "dot-points": {
+            "topic":"summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread",
+            "key-knowledge":"the five-number summary and boxplots (including the designation and display of possible outliers)",
+            "key-skill":"construct stem and dot plots, boxplots, histograms and appropriate summary statistics and use them to describe and interpret the distributions of numerical variables"
+        },
+        "question-number":5,
+        "marks": 1,
+        "question": {
+            "stem": "The number of siblings of each member of a class of 24 students was recorded. The results are displayed in the table below.",
+            "image":"2024-E1-Q5.png",
+            "question-text": "A boxplot was constructed to display the spread of the data. Which one of the following statements about this boxplot is correct?",
+            "options": ["There are no outliers.","The value of the interquartile range (IQR) is 1.5","The value of the median is 1.5","All of the five-number summary values are whole numbers."],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": "The value of the median is 1.5"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating data distributions",
+       "dot-points": {
+            "topic":"summary of the distributions of numerical variables; the five-number summary and boxplots (including the use of the lower fence (Q1 – 1.5 × IQR) and upper fence (Q3 + 1.5 × IQR) to identify and display possible outliers); the sample mean and standard deviation and their use in comparing data distributions in terms of centre and spread",
+            "key-knowledge":"the five-number summary and boxplots (including the designation and display of possible outliers)",
+            "key-skill":"construct stem and dot plots, boxplots, histograms and appropriate summary statistics and use them to describe and interpret the distributions of numerical variables"
+        },
+        "question-number":6,
+        "marks": 1,
+        "question": {
+            "stem": "More than 11000 athletes from more than 200 countries competed in the Tokyo Summer Olymipic Games. An analysis of the number of athletes per country produced the following five-number summary.",
+            "image":"2024-E1-Q6",
+            "question-text": "The smallest number of athletes per country that would display as an outlier on a bloxplot of this data is",
+            "options": [49,112,113,613],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": 113
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating data distributions",
+        "dot-points": {
+            "topic":"the normal model for bell-shaped distributions and the use of the 68–95–99.7% rule to estimate percentages and to give meaning to the standard deviation; standardised values (z-scores) and their use in comparing data values across distributions.",
+            "key-knowledge":"the normal model and the 68–95–99.7% rule, and standardised values (z-scores)",
+            "key-skill":"solve problems using z-scores and the 68–95–99.7% rule"
+        },
+        "question-number":7,
+        "marks": 1,
+        "question": {
+            "stem": "Fiona plays nine holes of golf each week, and records her score. Her mean score for all rounds in 2024 is 55.7. In one round, when she recorded a score of 48, her standardised score was z=-1.75.",
+            "question-text": "The standard deviation for score in 2024 is",
+            "options": [1.1,2.3,4.4,6.95],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": 4.4
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling linear associations",
+        "dot-points": {
+            "topic":"modelling linear association between two numerical variables, including the: identification of the explanatory and response variables. Use of the least squares method to fit a linear model to the data",
+            "key-knowledge":"least squares line and its use in modelling linear associations",
+            "key-skill":"determine the equation of the least squares line giving the coefficients correct to a required number of decimal places or significant figures as specified, and distinguish between correlation and causation"
+        },
+        "question-number":8,
+        "marks": 1,
+        "question": {
+            "stem": "The scatterplot below displays the average number of female athletes per competing nation, females, against the number of the sSummer Olympic Games, number, from the first Olympic Games, in 1896, to the 29th Olympic Games, held in 2021. A least squares line has been fitted to the scatterplot",
+            "image":"2024-E1-Q8.png",
+            "question-text": "The equation of the least squares regression line is closest to",
+            "options": ["females = -4.87 + 1.02 × number","females = -3.39 + 0.91 × number","number = -3.39 + 0.91 × females","number = -0.91 + 3.39 × females"],
+            "correct-answer": {
+                "choice": "B",
+                "index": 1,
+                "answer": "females = -3.39 + 0.91 × number"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling linear associations",
+        "dot-points": {
+            "topic":"least squares line of best fit y = a + bx, where x represents the explanatory variable and y represents the response variable; the determination of the coefficients a and b using techology, and the formulas b = r × sy/sx and a = y - bx",
+            "key-knowledge":"correlation coefficient, r, its interpretation, the issue of correlation and cause and effect",
+            "key-skill":"calculate the correlation coefficient, r, and interpret it in the context of the data"
+        },
+        "question-number":9,
+        "marks": 1,
+        "question": {
+            "stem": "The least squares equation for the relationship between the average number of male athletes per competing nation, males, and the number of the Summer Olympic Games, number, is males = 67.5 - 1.27 × number. The summary statistics for the variables number and males are shown in the table below.",
+            "image":"2024-E1-Q9.png",
+            "question-text": "The value of Pearson's correlation coefficient, r, rounded to three decimal places, is closest to",
+            "options": [-0.569,-0.394,0.394,0.569],
+            "correct-answer": {
+                "choice": "A",
+                "index": 0,
+                "answer": -0.569
+            }
+        }    
+    }
+    ,
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling linear associations",
+        "dot-points": {
+            "topic":"interpretation of the slope and intercepts of the least squares line in the context of the situation being modelled, including: Use of the rule of the fitted line to make predictions being aware of the limitations of extrapolation.",
+            "key-knowledge":"least squares line and its use in modelling linear associations",
+            "key-skill":"use the least squares line of best fit to model and analyse the linear association between two numerical variables and interpret the model in the context of the association being modelled"
+        },
+        "question-number":10,
+        "marks": 1,
+        "question": {
+            "stem": "The least squares equation for the relationship between the average number of male athletes per competing nation, males, and the number of the Summer Olympic Games, number, is males = 67.5 - 1.27 × number. The summary statistics for the variables number and males are shown in the table below.",
+            "image":"2024-E1-Q9.png",
+            "question-text": "At which Summer Olympic Games will the predicted average number of males be closest to 25.6?",
+            "options": ["31st", "32nd", "33rd", "34th"],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": "33rd"
+            }
+        }    
+    }
+    ,
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling linear associations",
+        "dot-points": {
+            "topic":"data transformation and its use in transforming some forms of non-linear data to linearity using a square, logarithmic (base 10) or reciprocal transformation (applied to one axis only)",
+            "key-knowledge":"data transformation and its purpose",
+            "key-skill":"construct a residual analysis to test the assumption of linearity and, in the case of clear non-linearity, transform the data to achieve linearity and repeat the modelling process using the transformed data"
+        },
+        "question-number":11,
+        "marks": 1,
+        "question": {
+            "stem": "The number of breeding pairs of small parrot species has been declining over recent years. The table below shows the number breeding pairs counted, pairs, and the year number, years, for the last 12 years. A scatterplot of this data is also provided. The association between pairs and year is non-linear.",
+            "image":"2024-E1-Q11.png",
+            "question-text": "The scatterplot can be linearised using a logarithmic (base 10) transformation applied to the explanatory variable. The least squares equation calculated from the transformed data is closest to",
+            "options": ["log(pairs) = 2.44 - 0.0257 × year","log(pairs) = 151 - 303 × year","pairs = 274 - 12.3 × log(year)","pairs = 303 - 151 × log(year)"],
+            "correct-answer": {
+                "choice": "D",
+                "index": 3,
+                "answer": "pairs = 303 - 151 × log(year)"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling linear associations",
+        "dot-points": {
+            "topic":"data transformation and its use in transforming some forms of non-linear data to linearity using a square, logarithmic (base 10) or reciprocal transformation (applied to one axis only)",
+            "key-knowledge":"data transformation and its purpose",
+            "key-skill":"construct a residual analysis to test the assumption of linearity and, in the case of clear non-linearity, transform the data to achieve linearity and repeat the modelling process using the transformed data"
+        },
+        "question-number":12,
+        "marks": 1,
+        "question": {
+            "stem": "The number of breeding pairs of small parrot species has been declining over recent years. The table below shows the number breeding pairs counted, pairs, and the year number, years, for the last 12 years. A scatterplot of this data is also provided. The association between pairs and year is non-linear.",
+            "image":"2024-E1-Q11.png",
+            "question-text": "A reciprocal transformation applied to the variable pairs can also be used to linearise the scatterplot. When a least squares line is fitted to the plot of 1/pairs versus year, the largest difference between the actual value and the predicted value occurs at year",
+            "options": [1,2,11,12],
+            "correct-answer": {
+                "choice": "A",
+                "index": 0,
+                "answer": 1
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling time series data",
+        "dot-points": {
+            "topic":"numerical smoothing of time series data using moving means with consideration of the number of terms required (using centring when appropriate) to help identify trends in time series plot with large fluctuations",
+            "key-knowledge":"time series data and its analysis",
+            "key-skill":"identify key qualitative features of a time series plot including trend (using smoothing if necessary), seasonality, irregular fluctuations and outliers, and interpret these in the context of the data"
+        },
+        "question-number":13,
+        "marks": 1,
+        "question": {
+            "stem": "A school runs an orientation program for new staff each January. The time series plot below show the number of new staff, new, for each year, year, from 2011 to 2022 (inclusive).",
+            "image":"2024-E1-Q13.png",
+            "question-text": "The time series is smoothed using seven-median smoothing. The smoothed value of new for the year 2016 is",
+            "options": [10,11,12,13],
+            "correct-answer": {
+                "choice": "A",
+                "index": 0,
+                "answer": 10
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling time series data",
+        "dot-points": {
+            "topic":"numerical smoothing of time series data using moving means with consideration of the number of terms required (using centring when appropriate) to help identify trends in time series plot with large fluctuations",
+            "key-knowledge":"time series data and its analysis",
+            "key-skill":"identify key qualitative features of a time series plot including trend (using smoothing if necessary), seasonality, irregular fluctuations and outliers, and interpret these in the context of the data"
+        },
+        "question-number":14,
+        "marks": 1,
+        "question": {
+            "stem": "A school runs an orientation program for new staff each January. The time series plot below show the number of new staff, new, for each year, year, from 2011 to 2022 (inclusive).",
+            "image":"2024-E1-Q13.png",
+            "question-text": "The number of new staff in 2023 is added to the total number of new staff from the previous 12 years. For these 13 years, the mean number of new staff is 11. The number of new staff in 2023 is",
+            "options": [11,16,17,19],
+            "correct-answer": {
+                "choice": "B",
+                "index": 1,
+                "answer": 16
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling time series data",
+        "dot-points": {
+            "topic":"numerical smoothing of time series data using moving means with consideration of the number of terms required (using centring when appropriate) to help identify trends in time series plot with large fluctuations",
+            "key-knowledge":"time series data and its analysis",
+            "key-skill":"identify key qualitative features of a time series plot including trend (using smoothing if necessary), seasonality, irregular fluctuations and outliers, and interpret these in the context of the data"
+        },
+        "question-number":15,
+        "marks": 1,
+        "question": {
+            "stem": "The table below show the total number of cans of soft drink sold each month at a suburban cafe in 2023.",
+            "image":"2024-E1-Q15.png",
+            "question-text": "The six-mean smoothed value of the number of cans sold, with centering, for month 5 is closest to",
+            "options": [315,318,321,324],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": 321
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Data analysis",
+        "sub-topic": "Investigating and modelling time series data",
+        "dot-points": {
+            "topic":"seasonal adjustment including the use and interpretation of seasonal indices and their calculation using seasonal and yearly means",
+            "key-knowledge":"time series data and its analysis",
+            "key-skill":"calculate, interpret and apply seasonal indices"
+        },
+        "question-number":16,
+        "marks": 1,
+        "question": {
+            "stem": "The table below shows the seasonal indicies for the monthly takings of a bistro. The seasonal indices for months 3 and 6 are missing.",
+            "image":"2024-E1-Q16",
+            "question-text": "The seasonal index for month 3 is twice the seasonal index for month 6. The seasonal index for month 3 is closest to",
+            "options": [0.69,1.04,1.38,2.07],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": 1.38
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Recursion and financial modelling",
+        "sub-topic": "Depreciation of assests",
+        "dot-points": {
+            "topic":"use of a first-order linear recurrence relation of the form: u0=a, un+1 = Run + d where a,R and d are constants to generate the terms of a sequence",
+            "key-knowledge":"the use of first-order linear recurrence relations to model growth and decay problems in financial contexts",
+            "key-skill":"model and analyse growth and decay in financial contexts using a first-order linear recurrence relation of the form: u0=a, un+1 = Run + d where a,R and d are constants"
+        },
+        "question-number":17,
+        "marks": 1,
+        "question": {
+            "stem": "The first-order linear recurrence relation of the form ",
+            "image":"2024-E1-Q24.png",
+            "question-text": "generates the terms of a sequence. A geometric sequence will be generated if",
+            "options": ["R = 1 and d = -1","R = 1 and d = 1","R = 4 and d = -1","R = 2 and d = 0"],
+            "correct-answer": {
+                "choice": "D",
+                "index": 3,
+                "answer": "R = 2 and d = 0"
+            }
+        }    
+    }
+    ,
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Recursion and financial modelling",
+        "sub-topic": "Depreciation of assests",
+        "dot-points": {
+            "topic":"use of a first-order linear recurrence relation of the form: u0=a, un+1 = Run + d where a,R and d are constants to generate the terms of a sequence",
+            "key-knowledge":"the use of first-order linear recurrence relations to model growth and decay problems in financial contexts",
+            "key-skill":"model and analyse growth and decay in financial contexts using a first-order linear recurrence relation of the form: u0=a, un+1 = Run + d where a,R and d are constants"
+        },
+        "question-number":18,
+        "marks": 1,
+        "question": {
+            "stem": "Trevor took out a reducing balance loan of $400000, with interest calculated weekly.The balance of the loan, in dollars, after n weeks, Tn, can be modelled by the recurrence relation",
+            "image":"2024-E1-Q18.png",
+            "question-text": "Assume that there are exactly 52 weeks in a year. The interest rate, per annum, for this loan is",
+            "options": ["0.75%", "3.9%", "4.5%", "7.5%"],
+            "correct-answer": {
+                "choice": "B",
+                "index": 1,
+                "answer": "3.9%"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Recursion and financial modelling",
+        "sub-topic": "Depreciation of assests",
+        "dot-points": {
+            "topic":"use of a recurrence relation to model and compare (numerically and graphically) flat rate, unit cost and reducing balance depreciation of the value of an asset with time, including the use of a recurrence relation to determine the depreciating value of an asset n depreciation periods for the initial sequence",
+            "key-knowledge":"the use of first-order linear recurrence relations to model flat rate and unit cost, and reduce balance depreciation of an asset over time, including the rule for the future value of the asset after n depreciation periods",
+            "key-skill":"demonstrate the use of a recurrence relation to determine the depreciating value of an asset or the future value of an investment or a loan after n time periods for the initial sequence"
+        },
+        "question-number":19,
+        "marks": 1,
+        "question": {
+            "stem": "Liv bought a new car for #35000. The value of the car will be depreciated by 18% per annum using the reducing balance method. A recurrence relation that models the year-to-year value of her car is of the form",
+            "image":"2024-E1-Q19.png",
+            "question-text": "The value of k is",
+            "options": [0.0082, 0.18,0.82, 1.18],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": 0.82
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Recursion and financial modelling",
+        "sub-topic": "Compound interest investments and loans",
+        "dot-points": {
+            "topic":"the difference between nominal and effective interest rates and the use of effective interest rates to compare investment returns and the cost of loans when interest is paid or charged, for example, daily, monthly, quarterly",
+            "key-knowledge":"the concepts of financial mathematics including simple and compound interest, nominal and effective interest rates, the present and future value of an investment, loan or asset, amortisation of a reducing balance loan or annuity and amortisation tables",
+            "key-skill":"use a rule for the future value of a compound interest investment or loan, or a depreciating asset, to solve practical problems"
+        },
+        "question-number":20,
+        "marks": 1,
+        "question": {
+            "stem": "Danika invested $2000 for three years at 4.4% per annum, compounding quarterly.",
+            "question-text": "To earn the same amount of interest in three years in a simple interest account, the annual interest rate would need to be closest to",
+            "options": ["4.60%", "4.68%", "4.84%", "4.98%"],
+            "correct-answer": {
+                "choice": "B",
+                "index": 1 ,
+                "answer": "4.68%"
+            }
+        }    
+    }
+    ,
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Recursion and financial modelling",
+        "sub-topic": "Compound interest investments and loans",
+        "dot-points": {
+            "topic":"the difference between nominal and effective interest rates and the use of effective interest rates to compare investment returns and the cost of loans when interest is paid or charged, for example, daily, monthly, quarterly",
+            "key-knowledge":"the concepts of financial mathematics including simple and compound interest, nominal and effective interest rates, the present and future value of an investment, loan or asset, amortisation of a reducing balance loan or annuity and amortisation tables",
+            "key-skill":"use a rule for the future value of a compound interest investment or loan, or a depreciating asset, to solve practical problems"
+        },
+        "question-number":21,
+        "marks": 1,
+        "question": {
+            "stem": "Lee took out a loan of $121000, with interest compounding monthly. He makes monthly repayments of $$2228.40 for five years until the loan is repaid in full.",
+            "question-text": "The total interest paid by Lee is closest to",
+            "options": ["$4434", "$5465", "$10539", "$12704"],
+            "correct-answer": {
+                "choice": "D",
+                "index": 3 ,
+                "answer": "$12704"
+            }
+        }    
+    }
+    ,
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Recursion and financial modelling",
+        "sub-topic": "Compound interest investments and loans",
+        "dot-points": {
+            "topic":"the difference between nominal and effective interest rates and the use of effective interest rates to compare investment returns and the cost of loans when interest is paid or charged, for example, daily, monthly, quarterly",
+            "key-knowledge":"the concepts of financial mathematics including simple and compound interest, nominal and effective interest rates, the present and future value of an investment, loan or asset, amortisation of a reducing balance loan or annuity and amortisation tables",
+            "key-skill":"use a rule for the future value of a compound interest investment or loan, or a depreciating asset, to solve practical problems"
+        },
+        "question-number":22,
+        "marks": 1,
+        "question": {
+            "stem": "Stewart takes out a reducing balance loan of $240000, with interest calculated monthly. Stewart makes regular montly repayments. Three lines of the amortisation table are  shown below.",
+            "image":"2024-E1-Q22.png",
+            "question-text": "The principal reduction associated with Payment number 2 is closest to",
+            "options": ["$1773.93", "$1781.05", "$1788.17", "$2741.05"],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2,
+                "answer": "$1788.17"
+            }
+        }    
+    }
+    ,
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Recursion and financial modelling",
+        "sub-topic": "Compound interest investments and loans",
+        "dot-points": {
+            "topic":"the difference between nominal and effective interest rates and the use of effective interest rates to compare investment returns and the cost of loans when interest is paid or charged, for example, daily, monthly, quarterly",
+            "key-knowledge":"the concepts of financial mathematics including simple and compound interest, nominal and effective interest rates, the present and future value of an investment, loan or asset, amortisation of a reducing balance loan or annuity and amortisation tables",
+            "key-skill":"use a rule for the future value of a compound interest investment or loan, or a depreciating asset, to solve practical problems"
+        },
+        "question-number":23,
+        "marks": 1,
+        "question": {
+            "stem": "Stewart takes out a reducing balance loan of $240000, with interest calculated monthly. Stewart makes regular montly repayments. Three lines of the amortisation table are  shown below.",
+            "image":"2024-E1-Q22.png",
+            "question-text": "The number of years that it will take Stwart to repay he loan in full is closest to",
+            "options": [9, 10, 11, 12],
+            "correct-answer": {
+                "choice": "A",
+                "index": 0,
+                "answer": 9
+            }
+        }    
+    }
+    ,
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Recursion and financial modelling",
+        "sub-topic": "Compound interest investments and loans",
+        "dot-points": {
+            "topic":"the difference between nominal and effective interest rates and the use of effective interest rates to compare investment returns and the cost of loans when interest is paid or charged, for example, daily, monthly, quarterly",
+            "key-knowledge":"the concepts of financial mathematics including simple and compound interest, nominal and effective interest rates, the present and future value of an investment, loan or asset, amortisation of a reducing balance loan or annuity and amortisation tables",
+            "key-skill":"use a rule for the future value of a compound interest investment or loan, or a depreciating asset, to solve practical problems"
+        },
+        "question-number":24,
+        "marks": 1,
+        "question": {
+            "stem": "Andre invested $18000 in an account for five years, with interest compounding monthly. He add an extra payment into the account each month immediately after the interest is calculated. For the first two years, the balance of the account, in dollars, after n months, An, can be modelled by the recurrence relation",
+            "image":"2024-E1-Q24.png",
+            "question-text": "After two years, Andre decides he would like the account to reach a balance of $30000 at the end of the five years. He must increase the value of the monthly extra payment to achieve this. The minimum value of teh new payment for the last three years is closest to",
+            "options": ["$189.55", "195.45", "$202.35", "$246.55"],
+            "correct-answer": {
+                "choice": "A",
+                "index": 0,
+                "answer": "189.55"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Matrices",
+        "sub-topic": "",
+        "dot-points": {
+            "topic":"",
+            "key-knowledge":"",
+            "key-skill":""
+        },
+        "question-number":25,
+        "marks": 1,
+        "question": {
+            "stem": "Matrix J is a 2 × 3. Matrix K is a 3 × 1 matrix. Matrix L is added to the product of JK.",
+            "question-text": "The order of matrix L is",
+            "options": ["1 × 3", "2 × 1", "2 × 3", "3 × 2"],
+            "correct-answer": {
+                "choice": "B",
+                "index": 1, 
+                "answer": "2 × 1"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Matrices",
+        "sub-topic": "",
+        "dot-points": {
+            "topic":"",
+            "key-knowledge":"",
+            "key-skill":""
+        },
+        "question-number":26,
+        "marks": 1,
+        "question": {
+            "stem": "A market stall sells three types of candles. The cost of each type of candle is shown in matrix C below.",
+            "image":"2024-E1-Q26.png",
+            "question-text": "Towards the end of the day, the cost of each item is discounted by 15%. Which one of the following expressions can be used to determine each discounted price?",
+            "options": ["0.15C", "0.85C", "8.5C", "15C"],
+            "correct-answer": {
+                "choice": "B",
+                "index": 1, 
+                "answer": "15C"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Matrices",
+        "sub-topic": "",
+        "dot-points": {
+            "topic":"",
+            "key-knowledge":"",
+            "key-skill":""
+        },
+        "question-number":27,
+        "marks": 1,
+        "question": {
+            "stem": "Consider the following matrix, where h ≠ 0.",
+            "image":"2024-E1-Q27.png",
+            "question-text": "The inverse of this matrix does not exist when g is equal to",
+            "options": ["-2h", "h/2", "h", "2h"],
+            "correct-answer": {
+                "choice": "B",
+                "index": 1, 
+                "answer": "h/2"
+            }
+        }    
+    },
+    {
+        "source": "VCAA",
+        "year": 2024,
+        "exam": 1,
+        "style": "MC",
+        "area-of-study": "Matrices",
+        "sub-topic": "",
+        "dot-points": {
+            "topic":"",
+            "key-knowledge":"",
+            "key-skill":""
+        },
+        "question-number":28,
+        "marks": 1,
+        "question": {
+            "stem": [
+                {"paragraph-text":"A primary school is hosting a sports day."},
+                {"paragraph-text": "Students represent one of four teams: blue ("},
+                {"italics-inline": "B"},
+                {"text-inline": "), green ("},
+                {"italics-inline": "G"},
+                {"text-inline": "), red ("},
+                {"italics-inline": "R"},
+                {"text-inline": "), or yellow ("},
+                {"italics-inline": "Y"},
+                {"text-inline": ")."},
+                {"paragraph-text":"Students complete in one of three sports: football ("},
+                {"italics-inline": "F"},
+                {"text-inline": "), netball ("},
+                {"italics-inline": "N"},
+                {"text-inline": "), or tennis ("},
+                {"italics-inline": "T"},
+                {"text-inline": ")."},
+                {"paragraph-text":"Matrix "},
+                {"italics-inline": "W"},
+                {"text-inline": " shows the number of students completing in each sport and the team they represent."},
+                {"image": "2024-E1-Q28.png"},
+                {"paragraph-text":"Matrix "},
+                {"italics-inline": "W"},
+                {"text-inline": " is multiplied by the matrix "},
+                {"equation-inline": "\\begin{bmatrix} 1 \\\\ 1 \\\\ 1 \\\\ 1 \\end{bmatrix}"},
+                {"text-inline": "to produce matrix "},
+                {"italics-inline": "X"},
+                {"text-inline": "."},
+                {"paragraph-text":"Element "},
+                {"equation-inline": "x_{31}"},
+                {"text-inline": " indicates that"}
+            ],
+            "image":"",
+            "question-text": "",
+            "options": [[{"text-inline": "210 students represent the blue team"}], [{"text-inline": "210 students compete in netball"}], [{"text-inline": "280 students compete in tennis"}], [{"text-inline": "280 students compete in football"}]],
+            "correct-answer": {
+                "choice": "C",
+                "index": 2, 
+                "answer": "280 students compete in tennis"
+            }
+        }    
+    }
+]
