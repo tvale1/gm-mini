@@ -33,7 +33,7 @@ export function questionText(questionObj, questionString){
     //add inline equation
     if (Object.keys(questionObj)[0] == "image") {
         // questionString = questionString.slice(0,-4);
-        questionString += "<div><img width = 80% src = '../images/"+ questionObj['image'] +"'></div>";
+        questionString += "<div><img width = 80% src = 'images/"+ questionObj['image'] +"'></div>";
     };
      //add inline superscript
      if (Object.keys(questionObj)[0] == "superscript-inline") {
