@@ -5,12 +5,21 @@
     
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 #myApp{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1em;
+    /* margin-top: 1em; */
     align-items: center;
+    /* border: 1px solid red; */
+    position:relative;
+    padding-top: 1em;
 
 }
 
@@ -26,7 +35,7 @@ header{
 
 .end-game{
     position: absolute;
-    min-height: 100dvh;
+  
     background-color: rgba(132, 111, 252, 0.9);
     width: 100%;
     z-index: 1;
@@ -35,14 +44,18 @@ header{
     visibility: hidden;
     transition: opacity 1s, visibility 1s;
     color:white;
+    /* border: 1px solid red; */
     
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 101%;
+    translate: 0 -0.5em;
 }
 
 .wrapper{
     width: 80%;
+    /* position: relative; */
 }
 
 p {
@@ -50,12 +63,35 @@ p {
     line-height: 1.3em;
 }
 
+.options-container{
+    margin-bottom: 1em;
+}
 .mc-options {
     translate: -2px;
     padding: 0.1em 2px;
+    /* margin-bottom: 1em; */
 }
 .mc-options:hover {
     border: 2px dashed black;
     cursor:pointer;
     border-radius: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    background-color: lightskyblue;
+    width:100%;
+    padding: 3em 0em;
 }

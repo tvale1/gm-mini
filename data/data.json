@@ -178,12 +178,26 @@
             "key-skill":"answer statistical questions that require a knowledge of the distribution(s) of one or more numerical variables"
         },
         "question-number":4,
+        "link": 3,
         "marks": 1,
         "question": {
-            "stem": "The histogram below displays the population density, in people per km^2, of the 27 countries in the European Union in 2021. the histogram has a logarithmic (base 10) scale.",
+            "stem": [
+                {"paragraph-text":"The histogram below displays the population density, in people per km"}, 
+                {"superscript-inline": "2"},
+                {"text-inline": ", of the 27 countries in the European Union in 2021. the histogram has a logarithmic (base 10) scale."},
+                {"image": "2024-E1-Q3.png"}
+            ],
             "image": "2024-E1-Q3.png",
-            "question-text": "There is one outlier at the upper end of the histogram. This value could be",
-            "options": [330,1330,2030,2730],
+            "question-text": [
+                {"paragraph-text":"There is one outlier at the upper end of the histogram."},
+                {"paragraph-text":"This value could be"}
+            ],
+            "options": [ 
+                [{"text-inline": 330}],
+                [{"text-inline": 1330}],
+                [{"text-inline": 2030}],
+                [{"text-inline": 270}]
+            ],
             "correct-answer": {
                 "choice": "C",
                 "index": 2,
@@ -206,10 +220,23 @@
         "question-number":5,
         "marks": 1,
         "question": {
-            "stem": "The number of siblings of each member of a class of 24 students was recorded. The results are displayed in the table below.",
+            "stem": [
+                {"paragraph-text":"Thenumber of siblings of each member of a class of 24 students was recorded."}, 
+                {"paragraph-text":"The results are displayed in the table below"},
+                {"table": [[[{"paragraph-text":2}], [{"paragraph-text":1}],[{"paragraph-text":3}], [{"paragraph-text":2}],[{"paragraph-text":1}], [{"paragraph-text":1}],[{"paragraph-text":1}], [{"paragraph-text":4}],[{"paragraph-text":1}], [{"paragraph-text":1}],[{"paragraph-text":1}], [{"paragraph-text":1}]],[[{"paragraph-text":1}], [{"paragraph-text":2}],[{"paragraph-text":1}], [{"paragraph-text":2}],[{"paragraph-text":2}], [{"paragraph-text":1}],[{"paragraph-text":3}], [{"paragraph-text":4}],[{"paragraph-text":2}], [{"paragraph-text":2}],[{"paragraph-text":4}], [{"paragraph-text":1}]]]},
+                {"paragraph-text":"A boxplot was constructed to display the spread of the data."}
+               
+            ],
             "image":"2024-E1-Q5.png",
-            "question-text": "A boxplot was constructed to display the spread of the data. Which one of the following statements about this boxplot is correct?",
-            "options": ["There are no outliers.","The value of the interquartile range (IQR) is 1.5","The value of the median is 1.5","All of the five-number summary values are whole numbers."],
+            "question-text": [
+                {"paragraph-text":"Which one of the following statements about this boxplot is correct?"}
+            ],
+            "options": [ 
+                [{"text-inline": "There are no outliers."}],
+                [{"text-inline": "The value of the interquartile range (IQR) is 1.5"}],
+                [{"text-inline": "The value of the median is 1.5"}],
+                [{"text-inline": "All of the five-number summary values are whole numbers."}]
+            ],
             "correct-answer": {
                 "choice": "C",
                 "index": 2,

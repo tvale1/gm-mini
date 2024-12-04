@@ -13,7 +13,8 @@ async function getData(){
 //application function
 function myApp(data){
     
-    let index = daysBetweenTwoDates("2024-11-3", todaysDate())%4;
+    let index = (daysBetweenTwoDates("2024-11-3", todaysDate())+6)%5;
+    // let index = 3;
     
     //get player data from local storage: current score, if they've already played todays game etc.
     let playerData;
@@ -65,12 +66,5 @@ function myApp(data){
     optionsContainer.correctAnswer = data[index]['question']['correct-answer']["choice"];
     optionsContainer.playerData = playerData;
     optionsContainer.addEventListener("click", optionsClick);
-
-
-
-
-
-
-
 
 }

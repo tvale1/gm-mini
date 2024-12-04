@@ -2,6 +2,7 @@ export function questionText(questionObj, questionString){
     
     // add paragraph text
     if (Object.keys(questionObj)[0] == "paragraph-text") {
+        // console.log(questionObj);
         questionString += "<p>" + questionObj['paragraph-text'] + "</p>";
     }
 
@@ -32,12 +33,33 @@ export function questionText(questionObj, questionString){
     //add inline equation
     if (Object.keys(questionObj)[0] == "image") {
         // questionString = questionString.slice(0,-4);
-        questionString += "<div><img width = 80% src = 'images/"+ questionObj['image'] +"'></div>";
+        questionString += "<div><img width = 80% src = '../images/"+ questionObj['image'] +"'></div>";
     };
      //add inline superscript
      if (Object.keys(questionObj)[0] == "superscript-inline") {
         questionString = questionString.slice(0,-4);
         questionString += "<sup>" + questionObj['superscript-inline'] + "</sup></p>";
+    };
+
+    //add table
+    if (Object.keys(questionObj)[0] == "table") {
+        // questionString = questionString.slice(0,-4);
+        console.log( "table"); 
+        let tablestr = "";
+        for(let row=0; row<questionObj['table'].length; row++){
+            console.log("row = " + row);
+            tablestr += "<tr>"
+            for(let col=0; col<questionObj['table'][row].length; col++){
+                tablestr += "<td>"
+                for(let n=0; n<questionObj['table'][row][col].length; n++){
+                    tablestr = questionText(questionObj['table'][row][col][n], tablestr);
+                }
+                tablestr += "</td>"
+            }
+            tablestr += "</tr>"
+        }
+        console.log(tablestr);
+        questionString += "<div><table style='width:100%'>" + tablestr + "</table></div>";
     };
     
     
